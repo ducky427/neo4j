@@ -92,7 +92,8 @@ object Function {
     functions.ToUpper,
     functions.Trim,
     functions.Type,
-    functions.Upper
+    functions.Upper,
+    functions.SpecialFunc
   )
 
   val lookup: Map[String, Function] = knownFunctions.map { f => (f.name.toLowerCase, f) }.toMap
